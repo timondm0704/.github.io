@@ -1,10 +1,51 @@
-{% seo %}
-{{ site.title }}
-{% if site.logo %} Photo of {{ site.title }} {% endif %}
-{{ site.description }}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* Top navigation tabs */
+      .top-nav { border-bottom: 1px solid #e5e5e5; margin: 0 0 30px; padding-bottom: 12px; }
+      .top-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+      .top-nav li { margin: 0; }
+      .top-nav a { display: block; padding: 8px 16px; border-radius: 4px; color: #555; font-weight: bold; }
+      .top-nav a:hover { background: #f3f3f3; text-decoration: none; }
+      .top-nav a.active { background: #267CB9; color: #fff; }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="top-nav">
+        <ul>
+          {% for item in site.nav %}
+            {% assign item_url = item.url | relative_url %}
+            {% if item.url == "/" %}
+              {% if page.url == "/" or page.url == "/index.html" %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %}
+            {% else %}
+              {% if page.url contains item.url or page.section == item.title %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %}
+            {% endif %}
+            <li><a href="{{ item_url }}"{% if active %} class="active"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
 
-{% for item in site.nav %} {% assign item_url = item.url | relative_url %} {% if item.url == "/" %} {% if page.url == "/" or page.url == "/index.html" %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %} {% else %} {% if page.url contains item.url or page.section == item.title %}{% assign active = true %}{% else %}{% assign active = false %}{% endif %} {% endif %} 
-{{ item.title }}
- {% endfor %}
-{{ content }}
-Hosted on GitHub Pages — Theme by orderedlist
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Photo of {{ site.title }}" />
+        {% endif %}
+        <p>{{ site.description }}</p>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
