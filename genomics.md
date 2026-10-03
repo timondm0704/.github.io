@@ -48,4 +48,4 @@ A genome-wide association analysis of beta-blocker response and bone mineral den
 
 ![GWAS pipeline]({{ "/images/gwas-thumb.png" | relative_url }})
 
-[Read more →]({{ "/projects/gwas.html" | relative_url }})
+[Read more →]({{ "/projects/gwas_APO.html" | relative_url }})
