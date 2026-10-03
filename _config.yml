@@ -5,7 +5,16 @@ description: "Data analyst turned statistical geneticist | GWAS · Variance hete
 # Profile photo (upload a photo named profile.jpg to the repo, then remove the # below)
 # logo: /profile.jpg
  
+# Navigation tabs — add a new tab by adding two lines (title + url)
+nav:
+  - title: "About"
+    url: "/"
+  - title: "Genomic Research"
+    url: "/genomics/"
+ 
 # Theme — do not change these lines
 remote_theme: pages-themes/minimal
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+ 
