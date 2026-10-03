@@ -5,26 +5,26 @@ section: Genomic Research
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
-## Parent-of-Origin Effects on Obesity
-*First-author project · Framingham Heart Study*
+## BifurcatoR: Detecting Variance Heterogeneity
+*Contributor · Manuscript in preparation*
 
 ### Overview
 
-[EDIT] Most genetic association studies assume an allele has the same effect no matter which parent passed it on. For some genes, that assumption fails. In this first-author project, I test whether key variants in the FTO gene affect offspring BMI differently depending on parental origin, using multigenerational family data from the Framingham Heart Study. My work includes [describe your steps: determining parental origin of alleles, building the statistical models, handling family relatedness, sensitivity analyses]. Understanding parent-of-origin effects can reveal hidden genetic contributions to obesity that standard models miss.
+[EDIT] Standard statistical tests compare group means, but some of the most interesting biology shows up as differences in variance, a signal of hidden subgroups or gene-by-environment interaction. BifurcatoR is a Shiny app that helps researchers detect, model, and interpret this variance heterogeneity (VH), with simulation-based method evaluation and study-design recommendations. I contributed simulation studies comparing multiple VH detection methods across different distributions, and applied the methods to real-world clinical data such as leukemia and twin obesity data. [Add one sentence on what the simulations showed, once approved.]
 
 ### Figures
 
-![Concept: maternal vs. paternal allele effects on offspring BMI]({{ "/images/poe-1.png" | relative_url }})
-*Concept: maternal vs. paternal allele effects on offspring BMI*
+![Concept: two groups with the same mean but different variance]({{ "/images/bifurcator-1.png" | relative_url }})
+*Concept: two groups with the same mean but different variance*
 
-![Analysis workflow from family data to parent-of-origin models]({{ "/images/poe-2.png" | relative_url }})
-*Analysis workflow from family data to parent-of-origin models*
+![Simulation design: distributions × methods × sample sizes]({{ "/images/bifurcator-2.png" | relative_url }})
+*Simulation design: distributions × methods × sample sizes*
 
-![Demonstration of the parent-of-origin model on simulated family data]({{ "/images/poe-3.png" | relative_url }})
-*Demonstration of the parent-of-origin model on simulated family data*
+![Demonstration of power comparison on simulated data]({{ "/images/bifurcator-3.png" | relative_url }})
+*Demonstration of power comparison on simulated data*
 
 ### Skills Demonstrated
 
-Family-based genetic analysis · Mixed models for related individuals · R · Data QC on large cohort data
+Simulation study design · Statistical method comparison · R and Shiny · Data visualization
 
 <!-- After publication: add the paper link here, and replace demo figures with real results. -->
