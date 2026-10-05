@@ -9,8 +9,6 @@ section: Genomic Research
 ## Parent-of-Origin Effects on Obesity
 *First-author project · Framingham Heart Study*
 
-> Figures on this page use simulated or public data to demonstrate methods. Results from the underlying study will be added after publication.
-
 ---
 
 ### Overview
@@ -21,20 +19,8 @@ section: Genomic Research
 
 ### Figures
 
-*Figures coming soon.*
-
-<!-- FIGURES HIDDEN: after uploading images, delete "Figures coming soon", this line, and the "end" line below.
-
-![Concept: maternal vs. paternal allele effects on offspring BMI]({{ "/images/poe-1.png" | relative_url }})
-<br><small><em>Concept: maternal vs. paternal allele effects on offspring BMI</em></small>
-
-![Analysis workflow from family data to parent-of-origin models]({{ "/images/poe-2.png" | relative_url }})
-<br><small><em>Analysis workflow from family data to parent-of-origin models</em></small>
-
-![Demonstration of the parent-of-origin model on simulated family data]({{ "/images/poe-3.png" | relative_url }})
-<br><small><em>Demonstration of the parent-of-origin model on simulated family data</em></small>
-
-end -->
+   ![POE analysis workflow]({{ "/images/poe-workflow.png" | relative_url }})
+   <br><small><em>Analysis workflow: 398 FTO SNPs across 38 haplotype blocks, tested for mean and variance effects on BMI, parent-of-origin effects, blood eQTLs (FTO, IRX3, IRX5), and tissue-specific GTEx eQTLs.</em></small>
 
 ---
 
