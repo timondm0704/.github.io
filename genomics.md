@@ -13,7 +13,7 @@ permalink: /genomics/
 
 Does the effect of an FTO variant on BMI depend on whether it was inherited from the mother or the father? I model parent-of-origin effects using multigenerational family data.
 
-![Parent-of-origin concept]({{ "/images/poe-thumb.png" | relative_url }})
+   ![POE analysis workflow]({{ "/images/poe-workflow.png" | relative_url }})
 
 [Read more →]({{ "/projects/poe.html" | relative_url }})
 
