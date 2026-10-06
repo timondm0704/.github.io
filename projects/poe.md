@@ -19,7 +19,7 @@ section: Genomic Research
 
 ### Figures
 
-![POE analysis workflow]({{ "/images/poe-workflow.png" | relative_url }})
+![POE analysis workflow]({{ "/images/poe_workflow.png" | relative_url }})
    <br><small><em>Analysis workflow: 398 FTO SNPs across 38 haplotype blocks, tested for mean and variance effects on BMI, parent-of-origin effects, blood eQTLs (FTO, IRX3, IRX5), and tissue-specific GTEx eQTLs.</em></small>
 
 ---
