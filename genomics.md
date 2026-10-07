@@ -11,7 +11,8 @@ permalink: /genomics/
 ### Parent-of-Origin Effects on Obesity
 *First-author project · Framingham Heart Study*
 
-Does it matter which parent you inherited a gene variant from? I study whether variants in FTO, a well-established obesity-associated gene, affect obesity differently depending on parental origin, using data from the Framingham Heart Study (FHS).
+Does it matter which parent you inherited a gene variant from? 
+I study whether variants in FTO, a well-established obesity-associated gene, affect obesity differently depending on parental origin, using data from the Framingham Heart Study (FHS).
 
 ![POE analysis workflow]({{ "/images/poe_workflow.png" | relative_url }})
 
