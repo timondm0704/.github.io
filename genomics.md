@@ -11,7 +11,7 @@ permalink: /genomics/
 ### Parent-of-Origin Effects on Obesity
 *First-author project · Framingham Heart Study*
 
-Does the effect of an FTO variant on BMI depend on whether it was inherited from the mother or the father? I model parent-of-origin effects using multigenerational family data.
+Does it matter which parent you inherited a gene variant from? I study whether variants in FTO, a well-established obesity-associated gene, affect obesity differently depending on parental origin, using data from the Framingham Heart Study (FHS).
 
 ![POE analysis workflow]({{ "/images/poe_workflow.png" | relative_url }})
 
