@@ -7,7 +7,7 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## Parent-of-Origin Effects on Obesity
-*First-author project · Framingham Heart Study*
+* Parent-of-Origin Effects(POE)· Framingham Heart Study (FHS)· Obesity· mQTL/vQTL/eQTL *
 
 ---
 
