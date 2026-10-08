@@ -24,7 +24,7 @@ I study whether variants in FTO, a well-established obesity-associated gene, aff
 *Multi-site randomized controlled clinical trial · HPC pipeline*
 
 Can your genes predict how your bone respond to a medication? <br>
-I run a genome-wide association study (GWAS) in the APO trial, a multi-site randomized clinical trial of Atenolol (a beta-blocker) versus Placebo, to identify genetic variants that change how treatment affects bone mineral density and bone turnover over time.
+I run a genome-wide association study (GWAS) in the Atenolol for the Prevention of Osteoporosis (APO) trial, a multi-site randomized clinical trial of atenolol (a beta-blocker) versus placebo, to identify genetic variants that change how treatment affects bone mineral density over time.
 
 <!-- Add thumbnail when ready: ![GWAS pipeline]({{ "/images/gwas-thumb.png" | relative_url }}) -->
 
