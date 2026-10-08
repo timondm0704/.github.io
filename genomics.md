@@ -20,6 +20,16 @@ I study whether variants in FTO, a well-established obesity-associated gene, aff
 
 ---
 
+### Pharmacogenetic GWAS of Bone Mineral Density
+*Multi-site randomized controlled clinical trial · HPC pipeline*
+
+Can your genes predict how your bone respond to a medication? <br>
+I run a genome-wide association study (GWAS) in the APO trial, a multi-site randomized clinical trial of Atenolol (a beta-blocker) versus Placebo, to identify genetic variants that change how treatment affects bone mineral density and bone turnover over time.
+
+<!-- Add thumbnail when ready: ![GWAS pipeline]({{ "/images/gwas-thumb.png" | relative_url }}) -->
+
+[Read more →]({{ "/projects/gwas_APO.html" | relative_url }})
+
 ### BifurcatoR: Detecting Variance Heterogeneity
 *Contributor · Manuscript in preparation*
 
@@ -42,11 +52,4 @@ Identifying genetic variants that control variance in metabolic traits, using ch
 
 ---
 
-### Pharmacogenetic GWAS of Bone Mineral Density
-*Multi-site randomized controlled clinical trial · HPC pipeline*
 
-A genome-wide association analysis of beta-blocker response and bone mineral density change, with a full post-GWAS pipeline.
-
-<!-- Add thumbnail when ready: ![GWAS pipeline]({{ "/images/gwas-thumb.png" | relative_url }}) -->
-
-[Read more →]({{ "/projects/gwas_APO.html" | relative_url }})
