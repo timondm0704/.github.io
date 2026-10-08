@@ -11,6 +11,12 @@ section: Genomic Research
 
 ---
 
+### Skills Demonstrated
+
+R · Visualization Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
+
+---
+
 ### Overview
 
 The FTO gene is the most significant and widely replicated obesity finding from genome-wide association studies (GWAS). Its obesity-associated variants sit in non-coding regions (introns 1–3) and act as regulators, changing the expression of the neighboring genes IRX3 and IRX5 and shifting how fat cells store or burn energy. Earlier studies in humans and mice suggest that some of these effects depend on parental origin, known as parent-of-origin effects (POE): a variant inherited from the mother can act differently than the same variant inherited from the father. However, previous work examined only a handful of variants, focused almost entirely on BMI, was rarely replicated across cohorts, and only evaluated whether variants shift the mean. Variance effects, which describe the spread of a trait's distribution, remain understudied, yet they are important for understanding why people with the same variant can have different outcomes.
@@ -19,26 +25,19 @@ In this project, I systematically tested POE across FTO introns 1–3 using data
 
 Preliminary results suggest that most variants with parent-of-origin signals have stronger maternal effects on both the mean and the variance of obesity traits. They partially replicate findings from the Sorbs and German Trios cohorts and point to a candidate region where BMI, blood expression, and skeletal muscle expression signals overlap. These findings indicate that parental origin is an often-overlooked layer of genetic influence on obesity, one that may contribute to the missing heritability of complex traits.
 
-
-
 ---
 
 ### Figures
 
 ![POE analysis workflow]({{ "/images/poe_workflow.png" | relative_url }})
    <br><small><em>Analysis workflow: 398 FTO SNPs across 38 haplotype blocks, tested for mean and variance effects on obesity for parent-of-origin effects, blood eQTLs (FTO, IRX3, IRX5), and tissue-specific GTEx eQTLs.</em></small>
-
+<br>
 
 ![Integrated association heatmap]({{ "/images/fto_integrated_heatmap.png" | relative_url }})
 <br><small><em>Integrated view of association signals across FTO haplotype blocks, combining mean and variance effects on obesity traits, parent-of-origin effects, blood gene expression, and tissue-specific expression from GTEx.</em></small>
 
 ---
 
-### Skills Demonstrated
-
-Family-based genetic analysis · Mixed models for related individuals · R · Data QC on large cohort data
-
----
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
