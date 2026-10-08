@@ -30,11 +30,11 @@ Preliminary results suggest that most variants with parent-of-origin signals hav
 ### Figures
 
 ![POE analysis workflow]({{ "/images/poe_workflow.png" | relative_url }})
-   <br><small><em>Analysis workflow: 398 FTO SNPs across 38 haplotype blocks, tested for mean and variance effects on obesity for parent-of-origin effects, blood eQTLs (FTO, IRX3, IRX5), and tissue-specific GTEx eQTLs.</em></small>
+<small><em>Figure 1. Analysis workflow: 398 FTO SNPs across 38 haplotype blocks, tested for mean and variance effects on obesity for parent-of-origin effects, blood eQTLs (FTO, IRX3, IRX5), and tissue-specific GTEx eQTLs.</em></small>
 <br>
 <br>
 ![Integrated association heatmap]({{ "/images/fto_integrated_heatmap.png" | relative_url }})
-<br><small><em>Integrated view of association signals across FTO haplotype blocks, combining mean and variance effects on obesity traits, parent-of-origin effects, blood gene expression, and tissue-specific expression from GTEx.</em></small>
+<<small><em>Figure 2. Integrated view of association signals across FTO haplotype blocks, combining mean and variance effects on obesity traits, parent-of-origin effects, blood gene expression, and tissue-specific expression from GTEx.</em></small>
 
 ---
 
