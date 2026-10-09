@@ -26,7 +26,7 @@ I study whether variants in FTO, a well-established obesity-associated gene, aff
 Can your genes predict how your bone respond to a medication? <br>
 I run a genome-wide association study (GWAS) in the Atenolol for the Prevention of Osteoporosis (APO) trial, a multi-site randomized clinical trial of atenolol (a beta-blocker) versus placebo, to identify genetic variants that change how treatment affects bone mineral density over time.
 
-![BMD concept]({{ "/images/bmd_comcept.png" | relative_url }})
+![BMD concept]({{ "/images/bmd_concept.png" | relative_url }})
 
 [Read more →]({{ "/projects/gwas_APO.html" | relative_url }})
 
