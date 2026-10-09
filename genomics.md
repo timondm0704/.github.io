@@ -32,17 +32,6 @@ I run a genome-wide association study (GWAS) in the Atenolol for the Prevention 
 
 ---
 
-### BifurcatoR: Detecting Variance Heterogeneity
-*Contributor · Manuscript in preparation*
-
-A Shiny app for detecting, modeling, and interpreting variance heterogeneity in biological data. I ran simulation studies comparing detection methods across distributions.
-
-<!-- Add thumbnail when ready: ![Variance heterogeneity illustration]({{ "/images/bifurcator-thumb.png" | relative_url }}) -->
-
-[Read more →]({{ "/projects/bifurcator.html" | relative_url }})
-
----
-
 ### Gene-by-Environment Effects in CSS Mice
 *Collaborative project · 22 strains × 2 diets*
 
@@ -51,6 +40,17 @@ Identifying genetic variants that control variance in metabolic traits, using ch
 <!-- Add thumbnail when ready: ![CSS mice study design]({{ "/images/css-thumb.png" | relative_url }}) -->
 
 [Read more →]({{ "/projects/css-mice.html" | relative_url }})
+
+---
+
+### BifurcatoR: Detecting Variance Heterogeneity
+*Contributor · Manuscript in preparation*
+
+A Shiny app for detecting, modeling, and interpreting variance heterogeneity in biological data. I ran simulation studies comparing detection methods across distributions.
+
+<!-- Add thumbnail when ready: ![Variance heterogeneity illustration]({{ "/images/bifurcator-thumb.png" | relative_url }}) -->
+
+[Read more →]({{ "/projects/bifurcator.html" | relative_url }})
 
 ---
 
