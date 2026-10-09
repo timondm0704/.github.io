@@ -7,9 +7,13 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## Pharmacogenetic GWAS of Bone Mineral Density
-*Multi-site randomized controlled clinical trial · HPC pipeline*
+*Gene-Treatment Interaction · Osteoporosis · Randomized Controlled Trial · Bone Mineral Density · Statistical Genetics*
 
-> Figures on this page use simulated or public data to demonstrate methods. Results from the underlying study will be added after publication.
+---
+
+### Skills Demonstrated
+
+*REGENIE · PLINK · Linkage Disequilibrium (LD) · LocusZoom Plot· Manhattan Plot · R · Bash · SLURM · High-Performance Computing (HPC)*
 
 ---
 
@@ -26,17 +30,16 @@ Preliminary results identified several genome-wide significant SNP × treatment 
 ### Figures
 
 ![APO GWAS analysis workflow]({{ "/images/apo_workflow.png" | relative_url }})
-<br><small><em>Figure 1. Pharmacogenetic GWAS workflow in the APO trial.</em></small>
+<br><small><em>Figure 1. Pharmacogenetic GWAS workflow in the APO trial</em></small>
 
-![APO GWAS circular Mahattan]({{ "/images/APO_interaction_circular.jpg" | relative_url }})
-<br><small><em>Figure 2. Circular Manhattan plot of genome-wide SNP × treatment interaction results for change in bone mineral density and the bone resorption marker CTX in the APO trial.</em></small>
+![APO GWAS circular Manhattan plot]({{ "/images/APO_interaction_circular.jpg" | relative_url }})
+<br><small><em>Figure 2. Circular Manhattan plot of genome-wide genotype by treatment interaction results for change in bone mineral density and the bone resorption marker CTX in the APO trial</em></small>
 
+![LocusZoom plot of an interaction signal]({{ "/images/APO_Locuszoom.png" | relative_url }})
+<br><small><em>Figure 3. LocusZoom plot of a genome-wide significant genotype by treatment interaction signal and nearby genes</em></small>
 
----
-
-### Skills Demonstrated
-
-GWAS QC and association (PLINK, REGENIE) · HPC computing · Post-GWAS analysis · Reproducible pipelines
+![Predicted percent change in CTX by genotype and treatment]({{ "/images/predicted_change_CTX.png" | relative_url }})
+<br><small><em>Figure 4. Predicted percent change in CTX by genotype and treatment at a top interaction variant</em></small>
 
 ---
 
