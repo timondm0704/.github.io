@@ -25,18 +25,9 @@ Preliminary results identified several genome-wide significant SNP × treatment 
 
 ### Figures
 
-*Figures coming soon.*
+![APO GWAS analysis workflow]({{ "/images/apo_workflow.png" | relative_url }})
+<br><small><em>Figure 1. Pharmacogenetic GWAS workflow in the APO trial.</em></small>
 
-<!-- FIGURES HIDDEN: after uploading images, delete "Figures coming soon", this line, and the "end" line below.
-
-![Pipeline: QC → association → fine-mapping → annotation → enrichment → MR]({{ "/images/gwas-1.png" | relative_url }})
-<br><small><em>Pipeline: QC → association → fine-mapping → annotation → enrichment → MR</em></small>
-
-![Demonstration Manhattan plot using public summary statistics]({{ "/images/gwas-2.png" | relative_url }})
-<br><small><em>Demonstration Manhattan plot using public summary statistics</em></small>
-
-![Demonstration QQ plot using public summary statistics]({{ "/images/gwas-3.png" | relative_url }})
-<br><small><em>Demonstration QQ plot using public summary statistics</em></small>
 
 end -->
 
