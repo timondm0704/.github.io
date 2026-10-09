@@ -30,6 +30,8 @@ I run a genome-wide association study (GWAS) in the Atenolol for the Prevention 
 
 [Read more →]({{ "/projects/gwas_APO.html" | relative_url }})
 
+---
+
 ### BifurcatoR: Detecting Variance Heterogeneity
 *Contributor · Manuscript in preparation*
 
