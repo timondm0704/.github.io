@@ -28,8 +28,9 @@ Preliminary results identified several genome-wide significant SNP × treatment 
 ![APO GWAS analysis workflow]({{ "/images/apo_workflow.png" | relative_url }})
 <br><small><em>Figure 1. Pharmacogenetic GWAS workflow in the APO trial.</em></small>
 
+![APO GWAS circular Mahattan]({{ "/images/APO_interaction_circular.jpg" | relative_url }})
+<br><small><em>Figure 2. Circular Manhattan plot of genome-wide SNP × treatment interaction results for change in bone mineral density and the bone resorption marker CTX in the APO trial.</em></small>
 
-end -->
 
 ---
 
