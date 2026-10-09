@@ -38,7 +38,7 @@ Preliminary results identified several genome-wide significant SNP × treatment 
 ![LocusZoom plot of an interaction signal]({{ "/images/APO_Locuszoom.png" | relative_url }})
 <br><small><em>Figure 3. LocusZoom plot of a genome-wide significant genotype by treatment interaction signal and nearby genes</em></small>
 
-![Predicted percent change in CTX by genotype and treatment]({{ "/images/predicted_change_CTX.png" | relative_url }})
+![Predicted percent change in CTX by genotype and treatment]({{ "/images/predicted_%change_CTX.png" | relative_url }})
 <br><small><em>Figure 4. Predicted percent change in CTX by genotype and treatment at a top interaction variant</em></small>
 
 ---
