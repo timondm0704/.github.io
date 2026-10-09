@@ -13,7 +13,7 @@ section: Genomic Research
 
 ### Skills Demonstrated
 
-R · Visualization Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
+R · Visualization · Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
 
 ---
 
